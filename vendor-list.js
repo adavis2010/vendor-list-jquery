@@ -16,7 +16,7 @@ const display = (vendors) => {
         tr.append( $(`<td>${vendor.code}</td>`) );
         tr.append( $(`<td>${vendor.name}</td>`) );
         let tdAddress = $(`<td>${vendor.address}, ${vendor.city},${vendor.state},${vendor.zip} </td>`);
-        tr.append(tdAddr);
+        tr.append(tdAddress);
         tbody.append(tr);
 
     }
